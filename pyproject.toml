@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "miscellaneous-export-hwp"
+version = "0.1.0"
+description = ""
+authors = ["Moonsik Song <sikso1892@gmail.com>"]
+readme = "README.md"
+packages = [{include = "miscellaneous_export_hwp"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+pandas = "^2.0.2"
+beautifulsoup4 = "^4.12.2"
+xmltodict = "^0.13.0"
+lxml = "^4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
